@@ -58,3 +58,83 @@
 .intro-img{
   width: 100%;
 }
+
+.topCategoriesDiv {
+  display: flex;
+  justify-content: center;
+  
+  margin-top: 15px; 
+}
+
+.topCategories {
+  padding: 10px 20px;
+  border-left: 3px solid rgb(174, 39, 1);
+  border-right: 3px solid rgb(174, 39, 1);
+  color: black;
+  font-weight: 600;
+  font-size: 32px;
+}
+
+.container {
+  width: 100%;
+  
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-wrap: wrap;
+}
+
+@media (min-width: 768px) {
+  .container {
+      width: 80%;
+      padding: 1rem;
+  }
+}
+
+.card {
+  margin: 0.75rem;
+  width: 20rem;
+  background-color: #f9fafb; 
+  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1); 
+  position: relative;
+  cursor: pointer;
+  text-align: black;
+  overflow: hidden;
+  border-radius: 0.5rem;
+}
+
+.image {
+  width: 100%;
+  height: 15rem; 
+  background-color: #d1d5db; 
+  border-radius: 0.5rem 0.5rem 0 0;
+  position: relative;
+}
+
+.card-body {
+  padding: 1rem;
+}
+
+.card-title {
+  margin-bottom: 0.25rem;
+  font-size: 1.25rem;
+  font-weight: 600;
+}
+
+.view-btn{
+  background-color:#3D4451; 
+  color: white;
+  letter-spacing: 0.1em;
+  padding: 0.5rem 1.5rem;
+  border-radius: 10px;
+  margin-top: 0.5rem;
+  cursor: pointer;
+  border: none;
+  width: 100%;
+  height: 50px;
+}
+
+.view-btn:hover {
+  background-color:#3e434d;
+}
+
