@@ -62,7 +62,6 @@
 .topCategoriesDiv {
   display: flex;
   justify-content: center;
-  
   margin-top: 15px; 
 }
 
@@ -99,7 +98,6 @@
   position: relative;
   cursor: pointer;
   text-align: black;
-  overflow: hidden;
   border-radius: 0.5rem;
 }
 
@@ -138,3 +136,29 @@
   background-color:#3e434d;
 }
 
+.add-card{
+  position: relative;
+  left: 240px;
+  font-size: 25px;
+  color:#f90707;
+  border-radius: 50%;
+  border: none;
+}
+.add-card:hover{
+  background-color:#bbbcbe;
+  color: #f90707;
+}
+.like-btn{
+  position: absolute;
+  left: 260px;
+  top: 0px;
+  font-size: 25px;
+  color: #f90707;
+  border: none;
+  border-radius: 50%;
+}
+
+.like-btn:hover{
+  background-color:#bbbcbe;
+  color: #f90707;
+}
